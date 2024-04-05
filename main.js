@@ -16,7 +16,7 @@ function autoSwipe() {
     setInterval(() => {
         currentIndex = (currentIndex + 1) % testimonials.length;
         showTestimonial(currentIndex);
-    }, 2000); // Set delay to 0
+    }, 2000);
 }
 
 // Function to create dot indicators
